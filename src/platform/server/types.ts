@@ -6,6 +6,8 @@ export type DataToken = {
     userName: string;
   };
 };
+
+//* Implements a custom request from express Request object
 export interface CustomRequest extends Request {
   requestId?: string;
   dataTokenUser?: DataToken | null;

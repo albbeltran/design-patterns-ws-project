@@ -1,3 +1,5 @@
+//* Export all classes, interfaces, etc.
+
 export { UseCase } from './UseCase';
 export * from './user/user-repository';
 export * from './user/sign-up';

@@ -1,3 +1,5 @@
+//* Implementation of redis to save data in cache
+
 import { injectable } from 'inversify';
 import { getRedisClient } from '@example-api/config/db';
 import { CacheService } from '@example-api/common';

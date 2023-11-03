@@ -1,3 +1,5 @@
+//* Defines config variables and it´s permissions
+
 export type Config = {
   readonly environment: string;
   readonly port: number;

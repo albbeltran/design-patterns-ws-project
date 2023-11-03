@@ -1,4 +1,6 @@
 import type { Config } from './types';
+
+//* Assign config variables 
 const config: Config = {
   environment: process.env.ENVIRONMENT || "local",
   port: +process.env.PORT || 8080,

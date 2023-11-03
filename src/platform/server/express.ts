@@ -1,3 +1,5 @@
+//* Declares the server using express
+
 import express, {
   Application,
   NextFunction,

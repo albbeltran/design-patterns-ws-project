@@ -1,5 +1,6 @@
 import { Request } from 'express';
 
+//* Defines user token object
 export type DataToken = {
   data: {
     userId: number;
@@ -16,6 +17,7 @@ export interface CustomRequest extends Request {
   accessToken?: string | null;
 }
 
+//* Implements interface for server start options
 export interface IStartOptions {
   basePath: string;
   port: number;
